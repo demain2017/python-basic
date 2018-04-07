@@ -25,8 +25,4 @@ if __name__ == '__main__':
     pool.close()
     pool.join()
     print('end................')
-#使用非阻塞式时打开下面for循环
-#for i in range(0,12):
-#    time.sleep(random.random() * 2)
-#    print("主进程的pid是{},i=={}".format(os.getpid(),i))
 
